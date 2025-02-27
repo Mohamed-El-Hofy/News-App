@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#FFFFFFFF</color>
+    <color name="onPrimary">#000000</color>
+
+    <color name="m1">#959864</color>
+    <color name="m2">#785478</color>
+    <color name="m3">#023214</color>
+
+
+</resources>
+

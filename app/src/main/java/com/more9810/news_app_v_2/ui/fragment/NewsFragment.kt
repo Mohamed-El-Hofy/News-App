@@ -1,6 +1,7 @@
 package com.more9810.news_app_v_2.ui.fragment
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -43,6 +44,7 @@ class NewsFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         initViews()
 
+        Log.d("more1010", "arg Category: ${args.categoryName}")
         loadNewsSources(args.categoryName)
     }
 

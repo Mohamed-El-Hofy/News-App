@@ -37,6 +37,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        dataBinding = true
     }
 }
 
@@ -65,5 +66,13 @@ dependencies {
 
     //time ago
     implementation(libs.timeago)
+
+    //kotlin Coroutines
+    implementation (libs.kotlinx.coroutines.android)
+
+    // ViewModel
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    // LiveData
+    implementation(libs.androidx.lifecycle.livedata.ktx)
 
 }
